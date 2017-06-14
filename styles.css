@@ -1,0 +1,12 @@
+#customers{
+  display: flex;
+  flex-flow: row wrap;
+  width: 100vw;
+  height: 100vh;
+}
+#customers div{
+  flex: 1 0 20%
+}
+h1{
+  text-align: center;
+}
