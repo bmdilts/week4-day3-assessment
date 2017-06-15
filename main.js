@@ -21,7 +21,7 @@
         document.getElementById("customers").appendChild(flex_container);
                                                                             // Create a <div> element
         let pic = document.createElement("IMG");
-        pic.setAttribute("src", result[i].picture.medium);                                                                    // Append the text to <p>
+        pic.setAttribute("src", result[i].picture.large);                                                                    // Append the text to <p>
         document.getElementById(flexnum).appendChild(pic);           // Append <p> to <div> with id="myDIV"
 
         let name_div = document.createElement("DIV");

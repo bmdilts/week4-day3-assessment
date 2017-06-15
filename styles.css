@@ -1,6 +1,7 @@
 #customers{
   display: flex;
   flex-flow: row wrap;
+  justify-content: space-around;
   width: 100vw;
   height: 100vh;
   font-size: medium;
@@ -12,7 +13,7 @@
   text-align: center;
 }
 #customers img{
-  height: 100%;
+  height: 90%;
   width: auto;
 }
 h1{
