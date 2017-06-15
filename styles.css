@@ -3,10 +3,38 @@
   flex-flow: row wrap;
   width: 100vw;
   height: 100vh;
+  font-size: medium;
+  font-family: sans-serif;
 }
-#customers div{
-  flex: 1 0 20%
+#customers > div{
+  flex: 1 0 20%;
+  margin: 1em 2em 10em 1em;
+  text-align: center;
+}
+#customers img{
+  height: 100%;
+  width: auto;
 }
 h1{
   text-align: center;
+}
+.name{
+  text-transform: uppercase;
+  font-weight: bold;
+  border-bottom: 1px solid green;
+  width: fit-content;
+  margin: 0 4em 0 6em;
+}
+#id{
+  color: transparent;
+  text-shadow: 0 0 5px rgba(0,50,0,0.5);
+}
+#email{
+  text-transform: uppercase;
+  color: #d0d0d0;
+  font-weight: 100;
+}
+#location{
+  color: #9d9d9d;
+  font-weight: 200;
 }
